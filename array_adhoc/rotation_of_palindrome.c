@@ -10,9 +10,8 @@ int is_palindrome (char * str) {
 	if (!str) return 0;
 
 	while (i != j){
-		
 		if (str[i++] != str[j--])
-		       	return 0;
+			return 0;
 	}
 	return 1;
 }
@@ -23,7 +22,7 @@ int is_rotate_palindrome (char * str, int size ){
 
 	for (int i = 0; i < size; i++ ){
 		str [size] = str [0];
-		
+
 		for (int j = 0; j < size; j++ ) {
 			str[j] = str[j+1];
 		}
@@ -50,7 +49,7 @@ int main() {
 	else {
 		printf ("NO\n");
 	}
-	
+
 	char str2[4] = "abcd";
 
 	if (is_rotate_palindrome (str2, strlen(str2))){
