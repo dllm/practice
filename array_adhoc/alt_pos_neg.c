@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+
+
 int main() {
 	/* Enter your code here. Read input from STDIN. Print output to STDOUT */
 	//int a[] = {2,3,-4,-9,-2,-7,1,-5,-6};

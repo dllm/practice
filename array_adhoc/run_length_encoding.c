@@ -29,11 +29,9 @@ char* RLE(char* strinput) {
 			}
 		}
 
-
-		result[j++] = strinput[i];
+		result[j++] = strinput[i++];
 
 		cnt = 1;
-		i++;
 	}
 	result[j] = '\0';
 	return result;
