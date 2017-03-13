@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* remove a linked val which is greater X*/
 
 typedef struct LinkedListNode {
     int val;
@@ -89,7 +90,6 @@ int main(void)
 
 	/* Created Linked list is 1->2->3->4->5->6->7->8->9 */
 	push(&head, 4);
-#if 0 
 	push(&head, 11);
 	push(&head, 7);
 	push(&head, 8);
@@ -98,7 +98,6 @@ int main(void)
 	push(&head, 3);
 	push(&head, -2);
 	push(&head, 1);
-#endif
 	printf("\nGiven linked list \n");
 	printList(head);
 

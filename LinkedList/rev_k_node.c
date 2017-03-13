@@ -15,7 +15,7 @@ struct node *reverse (struct node * head, int k){
 
 	int count = 0;
 
-	while (count < k || curr != NULL) {
+	while (count < k && curr != NULL) {
 
 		next = curr->next;
 		curr->next = prev;
